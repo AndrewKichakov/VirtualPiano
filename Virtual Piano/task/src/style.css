@@ -1,0 +1,61 @@
+body {
+    background-color: aqua;
+}
+
+kbd {
+    font-family: 'Russo One', sans-serif;
+}
+
+.container {
+    margin: 25% auto;
+    width: max-content;
+}
+
+.white-keys kbd {
+    width: 50px;
+    height: 150px;
+    margin-left: -2px;
+    background-color: white;
+    padding: 200px 30px 50px 30px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.black-keys kbd {
+    /*width: 50px;*/
+    /*height: 150px;*/
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 100px 20px 50px 20px;
+    position: relative;
+    top: -225px;
+    /*border-top: -20px solid blue;*/
+    /*font-size: 15px;*/
+}
+
+.W {
+    position: relative;
+    left: 48px;
+}
+
+.E {
+    position: relative;
+    left: 68px;
+}
+
+.T {
+    position: relative;
+    left: 168px;
+}
+
+.Y {
+    position: relative;
+    left: 192px;
+}
+
+.U {
+    position: relative;
+    left: 214px;
+}
