@@ -5,6 +5,9 @@ document.addEventListener("keydown", function(event) {
     let audioA = new Audio("white_keys/A.mp3");
     audioA.load();
     audioA.play();
+    // let A = document.body.getElementsByClassName("A");
+    // A.style.background = "red";
+    // document.body.style.background = "violet";
   } else if (event.code === "KeyS") {
     // console.log("The 'S' key is pressed.");
     let audioS = new Audio("white_keys/S.mp3");
